@@ -1,4 +1,3 @@
-
 # To-Do API
 
 This is a simple backend API built using Node.js, Express, and CORS to manage a list of tasks. The API supports creating, reading, updating, and deleting tasks for a basic to-do application.
@@ -10,7 +9,6 @@ This is a simple backend API built using Node.js, Express, and CORS to manage a 
 - **Update an existing task**: Modify the content and completion status of a task.
 - **Delete a task**: Remove a task by its ID.
 - **CORS enabled**: The backend supports cross-origin requests from the frontend.
-
 
 ## Technologies Used
 
@@ -24,17 +22,26 @@ This is a simple backend API built using Node.js, Express, and CORS to manage a 
 
    ```bash
    git clone https://github.com/raviishekhawat/To-Do-Backend.git
-   
+
+   ```
+
 2. Navigate to the project directory:
 
    ```bash
    cd Backend
-   
+
+   ```
+
 3. Install the required dependencies:
 
    ```bash
    npm install
+   ```
+
 4. Start the server:
 
    ```bash
     node server.js
+   ```
+
+- By default, the project runs on port 5000. If you need to run the application on a different port, you can change it by Environment Variables (Recommended)
